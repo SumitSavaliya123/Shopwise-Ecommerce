@@ -1,0 +1,567 @@
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+            integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Details</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    
+    <body>
+        <div class="fixed-top " id="sNavbar">
+            <div>
+                <ul class="nav navbar-expand-lg" style="background-color: white;">
+    
+                    <li class="nav-item" style="padding-left: 10%;">
+                        <div class="dropdown">
+                            <a class="btn dropdown-toggle colorblack" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                English
+                            </a>
+    
+                            <ul class="dropdown-menu colorblack" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Hindi</a></li>
+                                <li><a class="dropdown-item" href="#">Gujarati</a></li>
+                                <li><a class="dropdown-item" href="#">XYZ</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="btn dropdown-toggle colorblack" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                USD
+                            </a>
+    
+                            <ul class="dropdown-menu colorblack" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">INR</a></li>
+                                <li><a class="dropdown-item" href="#">DLR</a></li>
+                                <li><a class="dropdown-item" href="#">XYZ</a></li>
+                            </ul>
+                        </div>
+                    </li>
+    
+                    <li class="nav-item pt-2 pl-3">
+                        <span class="colorblack">
+                            <i class="fas fa-phone-alt"></i>123-456-7890</span>
+                    </li>
+    
+                    <li class="nav-item pt-2" style="padding-left: 35%;">
+                        <span>
+                            <i class="fas fa-random ml-3 mr-1"></i>Compare
+                            <i class="far fa-heart ml-3 mr-1"></i>Wishlist
+                            <i class="far fa-user ml-3 mr-1"></i>Login
+    
+                        </span>
+                    </li>
+    
+                </ul>
+            </div>
+    
+            <hr style="margin-bottom: -.5px; margin-top: -1px">
+    
+    
+            <nav class="navbar navbar-expand-lg  navbar-light bg-light">
+                <div class="container-fluid" style="margin-left: 8%;">
+    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <a class="navbar-brand" href="#"> <i class="fas fa-shopping-cart pr-2"
+                                style="color:rgb(254, 50, 77);"></i>Shopwise</a>
+    
+                        <ul class="navbar-nav" style="padding-left: 26%;">
+                            <!-- 2 -->
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 pl-4">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        HOME
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </ul>
+    
+                        <ul class="navbar-nav">
+                            <!-- 3 -->
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 pl-2">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        PAGES
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </ul>
+    
+                        <ul class="navbar-nav">
+                            <!-- 4 -->
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 pl-2">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        PRODUCTS
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </ul>
+    
+                        <ul class="navbar-nav">
+                            <!-- 5 -->
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 pl-2">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        BLOG
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </ul>
+    
+                        <ul class="navbar-nav">
+                            <!-- 6 -->
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 pl-2">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" style="color: rgb(254, 50, 77);" aria-expanded="false">
+                                        SHOP
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </ul>
+    
+                        <a href="#" class="pl-3 colorblack">CONTACT US</a>
+    
+                        <i class="fas fa-search ml-3"></i>
+                        <i class="fas fa-shopping-cart ml-3"></i>
+                    </div>
+                </div>
+            </nav>
+    
+        </div>
+    
+        <div style="margin-top: 7%;">
+    
+            <nav class="navbar navbar-expand-lg  navbar-light bg" style="background-color: lightgrey;">
+                <div class="container-fluid" style="margin-left: 8%; padding-top: 3%; padding-bottom: 3%;">
+    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <a class="navbar-brand font-weight-bold" href="#">Product Detail</a>
+    
+    
+    
+                        <div style="padding-left: 52%;">
+                            Home
+                            <i class="fas fa-chevron-right"></i>
+                            Pages
+                            <i class="fas fa-chevron-right"></i>
+                            Product detail
+                        </div>
+                    </div>
+                </div>
+            </nav>
+    
+        </div>
+    
+    
+    
+        <div class="row" style="padding : 7% 10% 0% 10% ">
+    
+            <div class=" col-md-6">
+                <img src="https://source.unsplash.com/400x400/?blue_cloth" alt="">
+    
+                <table style="margin-top: 3%;">
+                    <tr>
+                        <td><img class="ml-3" src="https://source.unsplash.com/80x80/?blue_cloth" alt=""></td>
+                        <td><img class="ml-3" src="https://source.unsplash.com/80x80/?blue_cloth" alt=""></td>
+                        <td><img class="ml-3" src="https://source.unsplash.com/80x80/?blue_cloth" alt=""></td>
+                        <td><img class="ml-3" src="https://source.unsplash.com/80x80/?blue_cloth" alt=""></td>
+                    </tr>
+                </table>
+            </div>
+    
+    
+            <div class="col-md-6 align-content-start ">
+                <h4><b>Blue Dress For Women</b></h4>
+                <span class="prizetag h5">$69.00
+                    <span class="offoffer h5">40%off
+                    </span>
+                </span>
+    
+                <span class="goldencolor ml-5"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                    <span class="colorblack">(21)</span>
+                </span>
+    
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus omnis maxime illo vero aut placeat ad
+                    eum sequi delenit</p>
+    
+                <p>1 year AL Jazeera Brand Warranty</p>
+                <p>30 Day Return Policy</p>
+                <p>Cash On Delivery Available</p>
+                <p>Color: <i class="fas fa-dot-circle ml-1" style="color:blue ;"></i>
+                    <i class="fas fa-dot-circle ml-1" style="color:blueviolet ;"></i>
+                    <i class="fas fa-dot-circle ml-1" style="color:darkturquoise ;"></i>
+                </p>
+                <p>Size:
+                    <input type="button" class="btn btn-outline-dark" value="L">
+                    <input type="button" class="btn btn-outline-dark" value="XL">
+                    <input type="button" class="btn btn-outline-dark" value="2XL">
+                </p>
+                <p>SKU: BEWXYZ</p>
+                <p>Catugry: Cloths</p>
+                <p>Tags: Cloth,Printed</p>
+                <p>Share:
+                    <a href="#" style="color: blue;">
+                        <i class="fab fa-facebook-square pr-1 pl-2"></i></a>
+                    <a href="#" style="color:aqua;">
+                        <i class="fab fa-twitter-square pr-1"></i></a>
+                    <a href="#" style="color: red;">
+                        <i class="fab fa-youtube-square pr-1"></i></a>
+                    <a href="#" style="color:cornflowerblue;">
+                        <i class="fab fa-instagram-square pr-1"></i></a>
+                </p>
+    
+            </div>
+    
+    
+    
+        </div>
+    
+    
+    
+    
+    
+    
+    
+        <div style="padding : 7% 10% 0% 10%; margin-top: 3%;">
+    
+            <a class="uniquecolor" href="#">Discription</a>
+            <a class="ml-4 colorblack" href="#">Additional Info</a>
+            <a class="ml-4 colorblack" href="#">Reviews(2)</a>
+    
+    
+    
+            <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt accusantium maiores deleniti,
+                esse ullam
+                ipsam dicta eaque harum voluptas! Voluptate aliquid distinctio soluta assumenda perferendis rerum voluptatum
+                corporis nostrum repellat. Quisquam repellendus repudiandae odio incidunt ratione veniam sunt sapiente
+                reiciendis aspernatur vero dolores delectus vitae consectetur inventore optio laboriosam earum, ducimus quas
+                fuga sed, illum rem maiores. Vero tempora laboriosam quam possimus esse officiis saepe nisi aliquid minus
+                maiores. Autem illum praesentium debitis dolores! Harum.</p>
+    
+            <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae reprehenderit soluta natus
+                qui ratione nobis provident rem, illum veritatis quae esse aperiam possimus itaque blanditiis adipisci
+                assumenda velit praesentium quisquam tenetur sint exercitationem corrupti. Iste provident voluptas mollitia.
+            </p>
+    
+            <p class="mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, eveniet magni. Non deleniti
+                atque, odit quae excepturi nulla molestiae qui pariatur a. Accusamus numquam dolor modi voluptate magnam
+                minima, velit, consequuntur est, nobis vel facere nam nulla dolore ab. Labore, nulla doloribus earum rerum
+                iusto amet magnam illum incidunt? Molestias in laborum ipsa architecto ad sint quia voluptatem modi autem
+                similique, nam possimus impedit error est. Aliquid tenetur, dolore alias molestiae iure, suscipit rerum
+                omnis doloremque ea beatae expedita esse. Cumque quis id quisquam fuga consectetur nemo atque? Atque,
+                corporis.</p>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <div>
+            <h4 class="font-weight-bold " style="padding-left: 9%; padding-top: 6%;">
+                Related Products
+            </h4>
+    
+            <table style="padding-left: 10%; " class="row">
+                <tr>
+                    <td class="pr-3">
+    
+                        <div class="card exclusivediv item">
+                            <img src="https://source.unsplash.com/250x300/?cloths_women" alt="...">
+                            <div class="card-body">
+                                <span class="boldtxt">Dress for Women</span>
+                                <span class="prizetag">$69.00
+                                    <span class="offoffer">40%off
+                                    </span>
+                                </span>
+                                <br>
+                                <span class="goldencolor"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                    <span class="colorblack">(21)</span>
+                                </span>
+    
+    
+                            </div>
+                        </div>
+    
+                    </td>
+    
+                    <td class="pr-3">
+    
+                        <div class="card exclusivediv item">
+                            <img src="https://source.unsplash.com/250x300/?Tuxedo" alt="...">
+                            <div class="card-body">
+                                <span class="boldtxt">Leather Gray Tuxedo</span>
+                                <span class="prizetag">$69.00
+                                    <span class="offoffer">40%off
+                                    </span>
+                                </span>
+                                <br>
+                                <span class="goldencolor"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                    <span class="colorblack">(21)</span>
+                                </span>
+    
+    
+                            </div>
+                        </div>
+    
+                    </td>
+    
+                    <td class="pr-3">
+    
+                        <div class="card exclusivediv">
+                            <img src="https://source.unsplash.com/250x300/?dress" alt="...">
+                            <div class="card-body">
+                                <span class="boldtxt">Women Sliv Dress</span>
+                                <span class="prizetag">$69.00 <span class="offoffer">40%
+                                        off</span></span>
+                                <br>
+                                <span class="goldencolor"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></i><i
+                                        class="far fa-star"></i>
+                                    <span class="colorblack">(25)</span>
+                                </span>
+                            </div>
+                        </div>
+    
+                    </td>
+    
+                    <td class="pr-3">
+    
+                        <div class="card exclusivediv">
+                            <img src="https://source.unsplash.com/250x300/?blue_cloth" alt="...">
+                            <div class="card-body">
+                                <span class="boldtxt">Light Blie Shirt</span>
+                                <span class="prizetag">$69.00 <span class="offoffer">40%
+                                        off</span></span>
+                                <br>
+                                <span class="goldencolor"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                    <span class="colorblack">(22)</span>
+                                </span>
+                            </div>
+                        </div>
+    
+                    </td>
+                </tr>
+            </table>
+    
+        </div>
+    
+    
+    
+    
+    
+        <div id="div6" style="margin-top: 5%;">
+            <table class="footerp">
+    
+                <tr>
+    
+                    <td rowspan="2">
+                        <i class="fab fa-telegram-plane fa-4x"></i>
+                    </td>
+    
+                    <td>
+                        <h3><b>Join our Newsletter Now</b></h3>
+                    </td>
+    
+    
+                    <td rowspan="2" style="padding-left:100px;">
+                        <div>
+                            <input type="text" id="div7" placeholder="Enter Email Address">
+                            <input type="button" class="btn btn-dark" style="height: 40px;" value="Subscribe">
+                        </div>
+                    </td>
+    
+                </tr>
+    
+                <tr>
+                    <td>Register now to get update on promotions</td>
+                </tr>
+    
+            </table>
+        </div>
+    
+    
+    
+    
+        <footer class="text-center text-lg-start bg-dark text-muted" id="footerid">
+    
+            <section class="">
+                <div class="container text-center text-md-start pt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="mb-4">
+                                <i class="fas fa-shopping-cart pr-2" style="color: white;"></i><b style="color: white;">
+                                    Shopwise</b>
+                            </h6>
+                            <p class="footerp">
+                                Here you can use rows and columns to organize your footer content.
+                                <br>
+                                <i class="fas fa-map-marker-alt pr-1 pt-3"></i>123 street, NewYork, USA
+                                <br>
+                                <i class="far fa-envelope pr-1 pt-3"></i>info@contect.com
+                                <br>
+                                <i class="fas fa-mobile-alt pr-1 pt-3"></i>1234567890
+                            </p>
+    
+                        </div>
+                        <!-- Grid column -->
+    
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 footerp">
+                            <!-- Links -->
+                            <h6 class="fw-bold mb-4">
+                                Useful Links
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">About Us</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">FAQ</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Location</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Affiliates</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Contact</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+    
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 footerp">
+                            <!-- Links -->
+                            <h6 class="fw-bold mb-4">
+                                My Account
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">My Account</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Discount</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Returns</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Order History</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Order Tracking</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+    
+                        <!-- Grid column -->
+    
+    
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <div class="text-center pl-4 pt-2 pb-2" style="background-color: rgba(0, 0, 0, 0.05); width: 100%;  ">
+                <p class="footerp">© 2021 All Right Reserved by Bestwebcreator
+                    <span style="margin-left: 50%;">
+                        <i class="fab fa-cc-visa fa-2x pr-1" style="color: blue;"></i>
+                        <i class="fab fa-cc-discover fa-2x pr-1 colorblack"></i>
+                        <i class="fab fa-cc-mastercard fa-2x pr-1" style="color:darkslateblue;"></i>
+                        <i class="fab fa-cc-paypal fa-2x pr-1" style="color:cornflowerblue;"></i>
+                        <i class="fab fa-google-pay fa-2x pr-1" style="color: red;"></i>
+                    </span>
+                </p>
+    
+                <p>
+    
+                </p>
+            </div>
+        </footer>
+    
+    
+    
+    
+        <script src="https://kit.fontawesome.com/9f80ded878.js" crossorigin="anonymous"></script>
+    
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+            </script>
+    
+    </body>
+    
+    </html>

@@ -1,0 +1,218 @@
+#div1 {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+}
+
+#div2 {
+    width: 30%;
+    float: left;
+}
+
+#div3 {
+    color: white;
+    text-align: start;
+    margin-left: -5%;
+    margin-bottom: -3%;
+}
+
+#div4 {
+    width: 70%;
+    padding-left: 5%;
+    float: left;
+}
+
+#div5 {
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+#div6 {
+    background-color: rgb(254, 50, 77);
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 15%;
+}
+
+#div7 {
+    height: 50px;
+    width: 300px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    background-color: #333;
+    /* Modern Browsers */
+}
+
+.card1 {
+    width: 200px;
+}
+
+.prizetag {
+    color: red;
+    font-weight: bold;
+}
+
+.offoffer {
+    color: green;
+    font-weight: lighter;
+    font-size: small;
+}
+
+.goldencolor {
+    color: goldenrod;
+}
+
+#footerid {
+    width: 100%;
+    color: white;
+}
+
+.footerp {
+    text-align: start;
+    color: white;
+}
+
+.colorblack {
+    color: black;
+}
+
+#ourclient {
+    text-align: center;
+    background-color: antiquewhite;
+    margin-top: 4%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.commandiv {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.boldtxt {
+    font-weight: bold;
+}
+
+.margin17 {
+    margin-left: 17%;
+}
+
+.newswd {
+    width: 15rem;
+}
+
+.news1 {
+    text-align: start;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.news2 {
+    text-align: start;
+    font-size: smaller;
+    font-weight: 500;
+}
+
+.news3 {
+    text-align: start;
+    font-size: smaller;
+}
+
+.uniquecolor {
+    color: rgb(254, 50, 77);
+}
+
+.bgunique {
+    background-color: rgb(254, 50, 77);
+    color: white;
+}
+
+.txtcenter {
+    text-align: start;
+}
+
+.sliderdiv {
+    color: black;
+    margin-left: -50%;
+    margin-bottom: 13%;
+}
+
+.font60 {
+    font-size: 60px;
+}
+
+.exclusivediv {
+    width: 260px;
+}
+
+.fot {
+    text-align: left;
+    margin-left: -50px;
+}
+
+.carttable {
+    margin-top: 80px;
+}
+
+.carticone {
+    color: rgb(75, 74, 74);
+}
+
+.carttr {
+    padding: 20px;
+    padding-right: 250px;
+}
+
+.middlecontaner {
+    margin: 5% 6% 5% 6%;
+}
+
+.hr {
+    border: 1px solid black;
+}
+
+.stock {
+    border: 1px solid green;
+    border-radius: 3px;
+}
+
+.lodem {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.loadl {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#sec2, #sec3, #sec4, #sec5, #sec6, #sec7 {
+    display: none;
+    margin-top: 2%;
+}
+
+#sec1 {
+    display: block;
+    margin-top: 2%;
+}
+
+.centers {
+    margin-left: 45%;
+    margin-top: 2%;
+}
+
+.conti {
+    font-size: 50px;
+    color: rgb(254, 50, 77);
+    border: 1.5px solid rgb(254, 50, 77);
+    border-radius: 100px;
+    margin-left: 200%;
+    margin-top: 100%;
+}
